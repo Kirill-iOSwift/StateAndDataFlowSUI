@@ -15,7 +15,6 @@ struct RegisterView: View {
     var body: some View {
         VStack {
             HStack {
-                
                 TextField("Enter your name...", text: $inputName)
                     .multilineTextAlignment(.center)
                 Text(inputName.count.formatted())
